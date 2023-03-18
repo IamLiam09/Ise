@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800;900&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.navbar {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid #FEDF58;
+	.logo {
+		.img {
+			height: 50%;
+			width: 50%;
+			margin-top: 20px;
+		}
+	}
+	._links {
+		a {
+			text-decoration: none;
+            padding: 15px;
+            color: black;
+		}
+	}
+    .login{
+        width: 130px;
+        height: 53px;
+        background-color: #FEDF58;
+        border: none;
+        margin-right: 20px !important;
+    }
+}
+.Homepage{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: center;
+    .topwording{
+        width: 358px;
+        height: 70px;
+        border-radius: 56px;
+        background-color: #D9D9D9;
+        opacity: 28%;
+        margin: auto;
+    }
+    .searchbox{
+        width: 1120px; 
+        height: 75px;
+        background-color: #FEDF58;
+        opacity: 10%;
+        border-radius: 35px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        .Jobtitle{
+            width: 500px;
+            height: 50px;
+        }
+        .location{
+            width: 320px;
+            height: 50px;
+        }
+    }
+    
+}
+
+
+
